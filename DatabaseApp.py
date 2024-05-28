@@ -10,10 +10,10 @@ class DatabaseApp:
         self.master.title("Online Library Website")
         self.master.configure(bg='#AFD3E2')
 
-        self.server = 'Zyrex\\SQLEXPRESS'
+        self.server = ''
         self.database = 'library'
-        self.username = 'sa'
-        self.password = 'AsAs1234'
+        self.username = ''
+        self.password = ''
 
         # Connect to SQL Server
         self.conn = pyodbc.connect(
